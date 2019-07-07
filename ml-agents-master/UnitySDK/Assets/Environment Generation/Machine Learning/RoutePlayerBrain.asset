@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e9bda8f3cf1492fa74926a530f6f70, type: 3}
+  m_Name: RoutePlayerBrain
+  m_EditorClassIdentifier: 
+  brainParameters:
+    vectorObservationSize: 40
+    numStackedVectorObservations: 1
+    vectorActionSize: 050000000500000005000000
+    cameraResolutions: []
+    vectorActionDescriptions:
+    - 
+    - 
+    - 
+    vectorActionSpaceType: 0
+  keyContinuousPlayerActions: []
+  axisContinuousPlayerActions: []
+  discretePlayerActions:
+  - key: 256
+    branchIndex: 0
+    value: 0
+  - key: 257
+    branchIndex: 0
+    value: 1
+  - key: 259
+    branchIndex: 0
+    value: 2
+  - key: 260
+    branchIndex: 0
+    value: 3
+  - key: 261
+    branchIndex: 0
+    value: 4
+  - key: 262
+    branchIndex: 1
+    value: 0
+  - key: 263
+    branchIndex: 1
+    value: 1
+  - key: 264
+    branchIndex: 1
+    value: 2
+  - key: 265
+    branchIndex: 1
+    value: 3
+  - key: 266
+    branchIndex: 1
+    value: 4
+  - key: 267
+    branchIndex: 2
+    value: 0
+  - key: 268
+    branchIndex: 2
+    value: 1
+  - key: 270
+    branchIndex: 2
+    value: 2
+  - key: 271
+    branchIndex: 2
+    value: 3
+  - key: 272
+    branchIndex: 2
+    value: 4
